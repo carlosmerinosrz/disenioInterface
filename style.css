@@ -1,0 +1,134 @@
+body{
+    width: 1280px;
+    background-color: #faeddd;
+    font-family: 'Poppins';
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('img/estanterias.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10px ; /* Ajusta la altura del encabezado*/
+}
+header h1 {
+    color: #342f29;
+    margin:0px;
+}
+
+/* Estilos de menú */
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 1280px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+
+nav li {
+    margin-right: 30px; /* Espacio entre elementos del menú */
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/*--------------------------*/
+span{
+    font-weight: bold;
+}
+
+h1{
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+hr{
+    margin-left: 90px;
+    width: 50%;
+    border-top: 4px solid black; 
+}
+p{
+    margin-left: 90px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.conciencia{
+    margin-top: 100px;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#imagen-intro {
+    display: block;
+    width: 30%; /* Establece un máximo ancho del 30% del contenedor */
+    margin: auto;
+}
+#imagen-grafico {
+    display: block;
+    width: 50%; /* Establece un máximo ancho del 50% del contenedor */
+    margin-left: 90px;
+}
+
+/*Estilos para la tabla*/
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 2px solid #463d34;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #d1cbbd;
+}
+
+tr{
+    background-color: #f2f2f2;
+}
+
+/*ESTILOS DEL FORMULARIO*/
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+textarea, input[type="submit"], [type="text"]{
+    width: 100%;
+}
+
+/*FOOTER*/
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 1280px;
+}
+
+a:link{
+    color: black;
+}
+a:hover{
+    background-color: #a3a3a3;
+}
+a:visited{
+    color:#342f29
+}
