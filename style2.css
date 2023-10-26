@@ -1,0 +1,173 @@
+/* *{
+    border: 1px dashed red;
+}*/
+html{
+    background-color: #1c5e25;
+}
+body{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #ecffec;
+    font-family: 'Poppins';
+    border: 2px solid rgb(80, 203, 78);
+}
+/***************************************************************************************************/
+/* Estilos de menú */
+nav {
+    width: 1280px;
+    height: 80px;
+    background-color: rgb(0, 48, 10);
+}
+nav ul {
+    list-style: none;
+    float: right;
+}
+nav li {
+    width: 80px;
+    padding: 10px;
+    margin-right: 40px;
+    background-color: rgb(80, 203, 78);
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+}
+nav a , a:visited{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+/***************************************************************************************************/
+/* Encabezado */
+header {
+    padding: 100px ; /* Altura del encabezado*/
+    background-image: url('img/estanterias.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    width: 900px;
+    margin-left: 190px;
+    color: #0c3912;
+}
+/***************************************************************************************************/
+/* Contenedores de información */
+span{
+    font-weight: bold;
+    color: green;
+}
+h1{
+    margin-left: 90px;
+}
+hr{
+    width: 640px;
+    margin-left: 90px;
+    border-top: 4px solid rgb(2, 142, 14); 
+}
+/* Parrafos, que contiene informacion sobre la pagina Web */
+p{
+    width: 850px;
+    height: auto;
+    margin-left: 90px;
+    font-size: 20px;
+}
+/***************************************************************************************************/
+/* Frase para concienciarnos, junto a su imagen */
+#conciencia{
+    width: 1100px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+}
+#imagen-intro {
+    width: 500px;
+    height: 200px;
+    margin-left: 390px;
+}
+/***************************************************************************************************/
+/*Estilos para la tabla*/
+table {
+    width: 750px;
+    height: 150px;
+    margin: 20px;
+    margin-left: 245px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-left: 10px;
+    border: 2px solid #007208;
+    text-align: left;
+}
+
+th {
+    background-color: #a3e9b9;
+}
+
+tr{
+    background-color: #f1fcf0;
+}
+/***************************************************************************************************/
+/*Estilos del Formulario*/
+form {
+    width: 730px;
+    height: 360px;
+    margin-left: 245px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid rgb(80, 203, 78);;
+}
+input[type="text"], textarea{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+input[type="submit"]{
+    width: 70px;
+    height: 20px;
+    margin-left: 650px;
+}
+textarea{
+    width: 350px;
+    height: 40px;
+    max-width: 710px;
+    max-height: 50px;
+}
+/***************************************************************************************************/
+/*Estilos del footer*/
+footer{
+    width: 1240px;
+    height: 40px;
+    padding: 20px;
+    background-color: rgb(0, 48, 10);
+    color: white;
+    
+}
+
+/*************** PAGINA NOTICIAS ********************/
+#noticias{
+    margin: 50px;
+}
+#noticias div{
+    padding: 50px;
+    border-radius: 15px;
+}
+#noticias div:hover{
+    background-color: #beffb6;
+    border: solid 1px black;
+}
+#noticias a{
+    text-decoration: none;
+    color: rgb(9, 155, 9);
+}
+#noticias a:visited{
+    text-decoration: none;
+    color: rgb(6, 80, 6);
+}

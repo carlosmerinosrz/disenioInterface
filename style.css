@@ -1,8 +1,7 @@
 body{
-    width: 1280px;
+    width: 100%;
     background-color: #faeddd;
     font-family: 'Poppins';
-    margin: 0 auto;
 }
 
 header {
@@ -10,7 +9,8 @@ header {
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 10px ; /* Ajusta la altura del encabezado*/
+    margin-top: 30px;
+    padding: 100px ; /* Ajusta la altura del encabezado*/
 }
 header h1 {
     color: #342f29;
@@ -22,7 +22,7 @@ nav {
     background-color: black;
     position: fixed;
     top: 0;
-    width: 1280px;
+    width: 100%;
 }
 
 nav ul {
@@ -120,15 +120,9 @@ footer{
     padding: 20px;
     background-color: black;
     color: white;
-    width: 1280px;
+    width: 100%;
 }
 
 a:link{
-    color: black;
-}
-a:hover{
-    background-color: #a3a3a3;
-}
-a:visited{
-    color:#342f29
+    color: rgb(255, 255, 255);
 }
